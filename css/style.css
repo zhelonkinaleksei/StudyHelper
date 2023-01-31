@@ -173,6 +173,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s ease 0s;
   margin-left: 15px;
 }
+.header__login a {
+  color: #000000;
+}
 .header__login:hover {
   -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
@@ -431,6 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 440px) {
   .form__register {
     max-width: 312px;
+    margin-bottom: 200px;
   }
   .register__customer {
     max-width: 260px;

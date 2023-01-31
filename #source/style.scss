@@ -143,6 +143,9 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
 }
 .header__login {
+    a{
+      color: #000000;
+    }
   font-size: 20px;
   line-height: 150%;
   padding: 15px 53px;
@@ -386,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
 @media(max-width:440px){
   .form__register{
     max-width:312px;
-   
+    margin-bottom: 200px;
   }
   
   .register__customer {
