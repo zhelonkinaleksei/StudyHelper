@@ -173,12 +173,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s ease 0s;
   margin-left: 15px;
 }
-.header__login a {
-  color: #000000;
-}
 .header__login:hover {
   -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
           box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+.header__login a {
+  color: #000000;
 }
 
 @media (max-width: 1028px) {
@@ -261,6 +261,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header__login a {
     font-size: 10px;
+  }
+  .header__nav {
+    margin-top: 45px;
   }
 }
 /*-----------------------------------------------------------------------------------------*/
@@ -432,9 +435,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 440px) {
+  .terms__time {
+    margin-top: 200px;
+  }
   .form__register {
     max-width: 312px;
-    margin-bottom: 200px;
   }
   .register__customer {
     max-width: 260px;
