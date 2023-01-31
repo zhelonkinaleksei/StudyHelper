@@ -142,8 +142,10 @@ h1, h2, h3, h4, h5, h6 {
 .menu__icon::after{
   bottom: 0;
 }
+
 .header__login {
   font-size: 20px;
+  color: #000000;
   line-height: 150%;
   padding: 15px 53px;
   background-color: #ABCDFF;
@@ -345,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 .terms {
   font-style: normal;
   font-weight: 500;
-  font-size:calc(13px + (20 - 13) * ((100vw - 320px) / (1230 - 320))); 
+  font-size:calc(13px + (20 - 13) * ((100vw - 320px) / (1440 - 320))); 
   line-height: 34px;
   color: #000000;
   background-color: #A7DBF9;
@@ -400,6 +402,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   .register__title{
     width:260px;
-
+  
   }
+  .terms__time{
+    margin-top: 200px;
+
+  }.terms__pocket{
+    margin-bottom: 50px;
+  }
+
 }
