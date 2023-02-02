@@ -190,6 +190,12 @@
    .registermain__form-buttonvk {
       margin-bottom: 20px;
    }
+   .registermain__buttons {
+      flex-wrap: wrap;
+   }
+   .registermain__button:first-child{
+      margin-bottom: 20px;
+   }
   
 
 }
