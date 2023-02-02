@@ -106,13 +106,16 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-column-gap: 80px;
-     -moz-column-gap: 80px;
-          column-gap: 80px;
-  padding: 35px 0px;
+  -webkit-column-gap: 70px;
+     -moz-column-gap: 70px;
+          column-gap: 70px;
+  padding: 35px 10px 35px 10px;
 }
 .header__nav ul a {
   color: #ffffff;
@@ -1238,7 +1241,39 @@ a {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+@media (max-width: 351px) {
   .registermain__button:first-child {
     margin-bottom: 20px;
   }
+}
+.order__button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px 20px;
+  background: #ABCDFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.order__button :active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.lkprofile__popup {
+  width: 70px;
+  height: 70px;
+}
+.lkprofile__popup img {
+  width: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

@@ -193,11 +193,12 @@
    .registermain__buttons {
       flex-wrap: wrap;
    }
+  
+}
+@media(max-width:351px){
    .registermain__button:first-child{
       margin-bottom: 20px;
    }
-  
-
 }
 
 
