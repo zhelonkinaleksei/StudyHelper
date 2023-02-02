@@ -251,12 +251,12 @@ a{
   padding: 0px 15px;
   background-image: url(../img/main/women.png);
   background-repeat: no-repeat;
-  background-position: calc(10px + (450 - 10) * ((100vw - 320px) / (1230 - 320)))  calc(300px + (180 - 300) * ((100vw - 320px) / (1230 - 320)));
+  background-position: 450px 150px;
   background-size:auto;
   
 }
 .section__top {
-  margin-top:calc(30px + (60 - 30) * ((100vw - 320px) / (1230 - 320))); 
+  margin-top:50px
  
 }
 
@@ -279,7 +279,7 @@ a{
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
-    font-size:calc(45px + (90 - 45) * ((100vw - 320px) / (1230 - 320))); 
+    font-size:90px; 
     line-height: 91%;
     letter-spacing: 1.5px;
     text-transform: capitalize;
@@ -289,7 +289,7 @@ a{
 .top__subtitle {
   font-style: normal;
   font-weight: 700;
-  font-size:calc(20px + (40 - 20) * ((100vw - 320px) / (1230 - 320))); 
+  font-size:40px; 
   line-height: 120%;
   color: #413C69;
   max-width: 605px;
@@ -299,7 +299,7 @@ a{
   background: #FFFFFF;
   border: 1px solid #C1BFBF;
   border-radius: 50px;
-  padding: calc(20px + (33 - 20) * ((100vw - 320px) / (1230 - 320)))  calc(25px + (35 - 25) * ((100vw - 320px) / (1230 - 320))); 
+  padding: 33px 35px; 
   max-width: 379px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
   transition: 0.3s ease-in;
@@ -318,7 +318,7 @@ a{
 .register__title {
   font-style: normal;
   font-weight: 600;
-  font-size:calc(30px + (40 - 30) * ((100vw - 320px) / (1230 - 320))); 
+  font-size:40px; 
   line-height: 44px;
   color: #101828;
   text-align: center;
@@ -355,7 +355,7 @@ a{
 .terms {
   font-style: normal;
   font-weight: 500;
-  font-size:calc(13px + (20 - 13) * ((100vw - 320px) / (1230 - 320))); 
+  font-size:20px; 
   line-height: 34px;
   color: #000000;
   background-color: #A7DBF9;
@@ -373,6 +373,7 @@ a{
   background-repeat: no-repeat;
   background-size: 50px;
   background-position: 5px;
+  padding-left: 20px;
 }
 
 .terms__calendar {
@@ -395,16 +396,20 @@ a{
 }
 @media(max-width:440px){
   .terms__time{
-    margin-top: 200px;
+    margin-top: 150px;
   
   }
   .form__register{
     max-width:312px;
+    a{
+      font-size: 20px;
+    }
   }
   
   .register__customer {
     max-width:260px;
     text-align: center;
+   
     
   }
   .register__executor{
@@ -417,6 +422,33 @@ a{
   }
   .terms__pocket {
     margin-bottom:50px;
+  }
+}
+@media(max-width:1230px){
+  .main__container{
+    background-position: calc(10px + (450 - 10) * ((100vw - 320px) / (1230 - 320)))  calc(300px + (180 - 300) * ((100vw - 320px) / (1230 - 320)));
+  }
+  .section__top {
+    margin-top:calc(30px + (50 - 30) * ((100vw - 320px) / (1230 - 320))); 
+   
+  }
+  .form__register {
+    padding: calc(15px + (33 - 15) * ((100vw - 320px) / (1230 - 320)))  calc(15px + (35 - 15) * ((100vw - 320px) / (1230 - 320))); 
+  }
+  .top__title {
+  h1{
+    font-size:calc(45px + (90 - 45) * ((100vw - 320px) / (1230 - 320))); 
+  }
+  }
+  .top__subtitle {
+  font-size:calc(20px + (40 - 20) * ((100vw - 320px) / (1230 - 320))); 
+  }
+  .register__title {
+    font-size:calc(25px + (40 - 25) * ((100vw - 320px) / (1230 - 320))); 
+    margin-bottom: 10px;
+  }
+  .terms {
+    font-size:calc(15px + (20 - 15) * ((100vw - 320px) / (1230 - 320))); 
   }
 }
 /*------------------------------------------------------------------------*/
@@ -494,7 +526,7 @@ a{
     background-image: none
 }
 .section__howdo-title{
-  font-size:calc(40px + (56 - 40) * ((100vw - 320px) / (1230 - 320)));
+  font-size:calc(30px + (56 - 30) * ((100vw - 320px) / (1230 - 320)));
 }
 }
 @media(max-width:440px){
@@ -583,8 +615,6 @@ a{
   color: #000000;
     
 }
-.questions {
-}
 .question .active {
   background-color: #ADC2F9;
 }
@@ -592,7 +622,7 @@ a{
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 120%;
   color: #0A2B43;
   background-color:#E2EAFF;
   border-radius: 15px;
@@ -630,7 +660,7 @@ a{
   font-style: normal;
   font-weight: 300;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 120%;
   color: #0A2B43;
   padding-left: 40px;
   padding-right: 15px;
@@ -639,16 +669,16 @@ a{
 }
 @media(max-width:1230px){
 .questions__title {
-  font-size:calc(40px + (56 - 40) * ((100vw - 320px) / (1230 - 320)));
+  font-size:calc(35px + (56 - 35) * ((100vw - 320px) / (1230 - 320)));
 }
 .section__questions {
   padding-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1230 - 320)));
 }
 .question__title {
-  font-size: calc(26px + (32 - 26) * ((100vw - 320px) / (1230 - 320)));
+  font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1230 - 320)));
 }
 .question__text {
-  font-size: calc(26px + (32 - 26) * ((100vw - 320px) / (1230 - 320)));
+  font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1230 - 320)));
 }
 }
 /*----------------------------------------------------------------------------------*/
@@ -658,7 +688,8 @@ a{
 }
 .footer__container {
   max-width: 1230px;
-  padding:25px 15px;
+  padding: 25px 15px;
+  margin: 0px auto;
   display: flex;
   column-gap: 10px;
   row-gap: 15px;
@@ -680,9 +711,7 @@ a{
   line-height: 150%;
   color: #FFFFFF;
 }
-.footer__right {
 
-}
 .right__elem {
   display: flex;
   align-items: center;
@@ -703,9 +732,24 @@ a{
   }
 
 }
+@media(max-width:1230px){
+  .left__elem {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1230 - 320)));
+  }
+  .right__elem-text {
+    font-size: calc(12px + (16 - 12) * ((100vw - 320px) / (1230 - 320)));
+  }
+
+}
 @media(max-width:440px){
   .right__elem-text {
     display: none;
   }
-
 }
+/*----------------------------------------------------------------------------------------------------------*/
+
+@import "termsOfUseStyle.scss";
+
+@import "garantstyle.scss";
+
+@import "registerStyle.scss";

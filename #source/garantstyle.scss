@@ -1,0 +1,31 @@
+.garant__container {
+   max-width: 1230px;
+   padding: 0px 15px;
+   margin: 0px auto;
+}
+.garant__title {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 45px;
+   line-height: 150%;
+   color: #000000;
+   margin: 30px 0px 20px 0px;
+   text-align: center;
+}
+.garant__text {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%;
+   color: #000000;
+   margin-bottom: 20px;
+
+}
+@media(max-width:1230px){
+   .garant__title {
+      font-size:calc(30px + (45 - 30) * ((100vw - 320px) / (1230 - 320)));
+   }
+   .garant__text {
+      font-size:calc(12px + (16 - 12) * ((100vw - 320px) / (1230 - 320)));
+   }
+}
