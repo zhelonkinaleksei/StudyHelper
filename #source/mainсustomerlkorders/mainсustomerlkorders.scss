@@ -1,0 +1,150 @@
+.maincustomerlkorders__container {
+   max-width: 1230px;
+   padding: 0px 15px;
+   margin: 0px auto;
+}
+.maincustomerlkorders__tabs {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 30px;
+   column-gap: 10px;
+   margin-bottom: 20px;
+}
+.customerlkorders__tab {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 20px;
+   text-align: center;
+   color: #2B38AB;
+   transition: all 0.6s ease 0s;
+   &:hover{
+      text-decoration: underline;
+    }
+}
+.tabsbody__auction {
+   display: none;
+}
+.tabsbody__work  {
+   display: none;
+}
+.tabsbody__cancel{
+   display: none;
+}
+.tabsbody__auction:target {
+   display: block;
+}
+.tabsbody__work:target {
+   display: block;
+}
+.tabsbody__cancel:target {
+   display: block;
+}
+
+.order__inauction {
+   background: #F8F8F8;
+   border: 1px solid #8F8F8F;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 50px;
+   max-width: 1100px;
+   margin: 0px auto;
+   padding: 30px;
+   display: flex;
+   margin-bottom: 30px;
+}
+.inauction__left {
+   flex: 1 1 auto;
+}
+.inauction__left-title {
+   font-weight: 700;
+   font-size: 22px;
+   color: #000000;
+   margin-bottom: 10px;
+}
+.inauction__left-subtitle {
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+   margin-bottom: 15px;
+
+}
+.inauction__left-description {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 24px;
+   border: 1px solid #CCCCCC;
+   border-radius: 15px;
+   max-width: 700px;
+   min-height: 120px;
+   padding: 5px 10px;
+   margin-bottom: 20px
+
+}
+.inauction__left-buttons {
+   font-weight: 600;
+   font-size: 18px;
+   color: #030303;
+   a{
+      background: #ABCDFF;
+      border: 1px solid #2697D8;
+      border-radius: 15px;
+      padding: 8px 10px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      &:active{
+         box-shadow: none;
+      }
+      &:first-child{
+         margin-right: 10px;
+      }
+   }
+   img{
+      width: 18px;
+      height: 18px;
+   }
+   
+}
+.inauction__right {
+}
+.inauction__right-priece {
+   font-weight: 700;
+   font-size: 22px;
+   color: #000000;
+   margin-bottom: 10px;
+   span{
+      color: #2697D8;
+   }
+   img{
+      width: 20px;
+      height: 20px;
+   }
+}
+.inauction__right-term {
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+   margin-bottom: 10px;
+}
+.inauction__right-garant {
+   font-weight: 400;
+   font-size: 16px;
+   color: #000000;
+}
+.tabsbody__work {
+
+}
+.tabsbody__cancel {
+}
+
+
+
+
+
+
+
+
+
+
+
