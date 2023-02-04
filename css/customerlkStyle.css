@@ -450,14 +450,37 @@ body {
 .profile__modal {
   position: fixed;
   z-index: 1;
-  display: none;
-  right: 0;
-  top: 0;
-  width: 200px;
-  height: 200px;
+  right: 90px;
+  top: 90px;
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  background-color: #daedf8;
 }
 
 .modal__content {
-  padding: 10px;
-  background-color: #2697D8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #101010;
+}
+.modal__content img {
+  width: 18px;
+  height: 18px;
+}
+
+.modal__content-title {
+  margin-bottom: 10px;
+}
+
+.modal__content-subtitle {
+  margin-bottom: 10px;
+}
+
+.modal__content-logout {
+  margin-bottom: 10px;
 }
