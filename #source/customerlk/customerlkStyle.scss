@@ -327,3 +327,28 @@ body{
       margin-top: 20px;
    }
 }
+/*---------------------------------MODALWINDOW---------------*/
+
+.lkprofile__popup {
+}
+.profile__modal {
+   position: fixed;
+   z-index: 1;
+   display: none;
+   right: 0;
+   top: 0;
+   width: 200px;
+   height: 200px;
+
+}
+.modal__content {
+   padding: 10px;
+   background-color: #2697D8;
+
+}
+.modal__content-title {
+}
+.modal__content-subtitle {
+}
+.modal__content-logout {
+}
