@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>StudyHelper</title>
+   <link rel="stylesheet" href="..\css\style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+   <div class="wrapper"> 
+      <div class="commonheader"> <header class="header">
+   <div class="header__container">
+      <a href="../html/mainpage.html">
+         <img class="header__logo" src="..\img\header\logo.svg" alt="Logo">
+      </a>
+      <nav class="header__nav">
+         <ul>
+            <li>
+               <a href="">Поддержка</a>
+            </li>
+            <li>
+               <a href="">Топ экспертов</a>
+            </li>
+            <li>
+               <a href="../html/garant.html">Гарантии</a>
+            </li>
+            <li>
+               <a href="">FAQ</a>
+            </li>
+            <li>
+               <a href="#" class="order__button" >Заказать</a>
+            </li>
+         </ul>
+      </nav>
+      <div class="menu__icon">
+         <span></span>
+      </div>   
+      <div id="lkprofile__popup" class="lkprofile__popup" >
+         <img src="..\img\executorlk\profile.png" alt="profile"> 
+         <div id="profile__modal" class="profile__modal">
+            <div class="modal__content">
+               <a href="../html/executorlkinform.html" class="modal__content-title">Мой профиль</a>
+               <a href="../html/customerlk.html#general" class="modal__content-subtitle"> <img src="..\img\headerlk\options.png" alt="options">Настройки</a>
+               <a href="#" class="modal__content-logout"> <img src="..\img\headerlk\logout.png" alt="logout">Выход</a>
+            </div>
+         </div>
+      </div> 
+   </div>
+   <div class="header__customer-buttons">
+      <a href="../html/executorlkorders.html#auction" class="header__customer-button">
+         <img src="../img/headerlk/briefcase.png" alt="briefcase"> <span> Мои отклики </span></a>
+      <a href="#" class="header__customer-button">
+         <img src="../img/headerlk/ru.png" alt="ru"> <span>Баланс</span></a>
+      <a href="#" class="header__customer-button">
+         <img src="../img/headerlk/mail.png" alt="mail"> <span>Уведомления</span></a>      
+   </div> 
+   <script src="..\js\profilepopup.js"></script>
+   <script src="..\js\burger.js"></script>
+</header></div>
+      <div class="commonmain"> <div class="maincustomerlk__container">
+   <nav class="maincustomerlk__tabs">
+      <a href="#general"  class="customerlk__tab">Общие</a>
+      <a href="#notifications"  class="customerlk__tab">Уведомления</a>
+      <a href="#safety"  class="customerlk__tab">Безопасность</a>
+   </nav>
+   <div class="maincustomerlk-tabsbody">
+      <div id="general" class="tabsbody__general">
+         <form action="#" method="post" class="generallk__form" >
+            <div class="generallk__form-left">
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Имя</div>
+                  <input type="text" class="form-leftitem" name="name" value="" placeholder="Введите имя" >
+               </div>
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Фамилия</div>
+                  <input type="text" class="form-leftitem" name="firstname" value="" placeholder="Введите фамилию" >
+               </div>
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Пол</div>
+                  <div  class="form-leftitem-radio"><input type="radio"  name="gender" value="" >  Мужской </div>
+                  <div class="form-leftitem-radio" ><input type="radio" name="gender" value="">    Женский</div>
+               </div>
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Телефон</div>
+                  <input type="tel" class="form-leftitem" name="numberphone" value="" placeholder="+79745248674" >
+               </div>
+            </div>
+            <div class="generallk__form-rightitem">
+               <div class="generallk__form-rightitemimg" > 
+                  <img src="..\img\executorlk\profile.png" alt="profilelk">
+               </div>
+               <button type="submit" class="generallk__form-submit">Принять </button>
+            </div> 
+         </form>
+         <div class="generallk__aboutme">
+            <div class="generallk__aboutme-title">Информация обо мне</div>
+            <div class="generallk__aboutme-text">Здесь заказчик сможет разместить информацию о себе, на его вкус</div>
+            <a href="#">Принять</a>
+         </div>  
+      </div>
+      <div id="notifications" class="tabsbody__notifications">
+
+      </div>
+      <div id="safety"  class="tabsbody__safety"> 
+         <div class="safety__title">Контактная информация</div>
+         <form action="#" method="get" class="safetyemail__form" >
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Текущий Email</div>
+                  <input type="text" class="form-leftitem" name="OldEmail" value="" placeholder="Введите Email" >
+               </div>
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Новый Email</div>
+                  <input type="text" class="form-leftitem" name="NewEmail" value="" placeholder="Введите Email" >
+               </div> 
+               <div class="generallk__form-leftitem">
+                  <div class="form-leftitem__name">Ваш пароль</div>
+                  <input type="password" class="form-leftitem" name="Password" value="" placeholder="Введите пароль" >
+               </div> 
+               <button type="submit" class="safetyemail__formbutton">Сохранить </button>
+         </form> 
+         <div class="section__top-line">
+            <img src="..\img\main\line.png" alt="line">
+         </div>
+            <div class="safety__title">Смена пароля</div>
+               <form action="#" method="get" class="safetyemail__form" >
+                     <div class="generallk__form-leftitem">
+                        <div class="form-leftitem__name">Новый пароль</div>
+                        <input type="password" class="form-leftitem" name="newpassword" value="" placeholder="Введите пароль" >
+                     </div>
+                     <div class="generallk__form-leftitem">
+                        <div class="form-leftitem__name">Старый пароль</div>
+                        <input type="password" class="form-leftitem" name="oldpassword" value="" placeholder="Введите пароль" >
+                     </div> 
+                     <div class="generallk__form-leftitem">
+                        <div class="form-leftitem__name">Старый пароль</div>
+                        <input type="password" class="form-leftitem" name="repeatoldpassword" value="" placeholder="Повторите пароль" >
+                     </div> 
+                     <button type="submit" class="safetyemail__formbutton">Сохранить </button>
+               </form>       
+      </div>
+      
+   </div>
+   
+
+</div></div>
+      <div class="commonfooter"> <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__left">
+         <div class="left__elem">© 2023</div>
+         <a href="../html/mainpage.html" class="left__elem">StudyHelper</a>
+         <a href="../html/termsoOfUse.html" class="left__elem">Пользовательское соглашение</a>
+         <div class="left__elem">E-mail: Example@gmail.com</div>
+      </div>
+      <div class="footer__right">
+         <div class="right__elem">
+            <div class="right__elem-text">Мы принимаем:</div>
+            <div class="right__elem-img">
+               <img src="..\img\main\pay.svg
+               " alt="pay">
+            </div>
+         </div>
+      </div>
+   </div>   
+</footer></div>
+   </div>
+</body>
+</html>
