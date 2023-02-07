@@ -134,22 +134,28 @@ body{
       box-shadow: none;
     }
 }
-.tabsbody__general {
+.executor__feedback-all {
    display: none;
 }
-.tabsbody__notifications {
+.executor__feedback-plus {
    display: none;
 }
-.tabsbody__safety {
+.executor__feedback-negative {
    display: none;
 }
-.tabsbody__general:target {
+.executor__feedback-all:target {
    display: block;
 }
-.tabsbody__notifications:target {
+.executor__feedback-plus:target {
    display: block;
 }
-.tabsbody__safety:target {
+.executor__feedback-negative:target {
+   display: block;
+}
+.executor__feedback-neitral {
+   display: none;
+}
+.executor__feedback-neitral:target {
    display: block;
 }
 
