@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>StudyHelper</title>
+   <link rel="stylesheet" href="..\css\style.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+   <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+   <div class="wrapper"> 
+      <div class="commonheader"> <header class="header">
+   <div class="header__container">
+      <a href="../html/mainpage.html">
+         <img class="header__logo" src="..\img\header\logo.svg" alt="Logo">
+      </a>
+      <nav class="header__nav">
+         <ul>
+            <li>
+               <a href="">Поддержка</a>
+            </li>
+            <li>
+               <a href="">Топ экспертов</a>
+            </li>
+            <li>
+               <a href="../html/garant.html">Гарантии</a>
+            </li>
+            <li>
+               <a href="">FAQ</a>
+            </li>
+            <li>
+               <a href="../html/orderfeed.html" class="order__button" >Лента заказов</a>
+            </li>
+         </ul>
+      </nav>
+      <div class="menu__icon">
+         <span></span>
+      </div>   
+      <div id="lkprofile__popup" class="lkprofile__popup" >
+         <img src="..\img\executorlk\profile.png" alt="profile"> 
+         <div id="profile__modal" class="profile__modal">
+            <div class="modal__content">
+               <a href="..\html\executorlkinform.html" class="modal__content-title">Мой профиль</a>
+               <a href="..\html\executorlksettings.html#general" class="modal__content-subtitle"> <img src="..\img\headerlk\options.png" alt="options">Настройки</a>
+               <a href="#" class="modal__content-logout"> <img src="..\img\headerlk\logout.png" alt="logout">Выход</a>
+            </div>
+         </div>
+      </div> 
+   </div>
+   <div class="header__customer-buttons">
+      <a href="../html/executorresponse.html" class="header__customer-button">
+         <img src="../img/headerlk/briefcase.png" alt="briefcase"> <span> Мои отклики </span></a>
+      <a href="#" class="header__customer-button">
+         <img src="../img/headerlk/ru.png" alt="ru"> <span>Баланс</span></a>
+      <a href="#" class="header__customer-button">
+         <img src="../img/headerlk/mail.png" alt="mail"> <span>Уведомления</span></a>      
+   </div> 
+   <script src="..\js\profilepopup.js"></script>
+   <script src="..\js\burger.js"></script>
+</header></div>
+      <div class="commonmain"> <div class="maincustomerlkorders__container">
+    <nav class="maincustomerlkorders__tabs tabs__response">
+       <a href="#send"  class="customerlkorders__tab">Отправленные<span>(1)</span></a>
+       <a href="#dispute"  class="customerlkorders__tab">На обсуждении<span>(1)</span></a>
+       <a href="#work"  class="customerlkorders__tab">В работе<span>(1)</span></a>
+       <a href="#cancel"  class="customerlkorders__tab">Завершенные<span>(1)</span></a>
+    </nav>
+    <div class="maincustomerlk-tabsbody">
+       <div id="send" class="tabsbody__auction">
+            <div class="orderfeed__order">
+    <div class="order__header">
+       <div class="order__header-left"> 
+         <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+         <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+       </div>
+       <div class="order__header-num">#34231</div>
+    </div>
+    <div class="order__main ">
+       <div class="main__object">Предмет:<span>Название предмета</span> </div>
+       <div class="main__type">Тема:<span>Название темы</span></div>
+       <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+    </div>
+    <div class="order__footer ">
+       <div class="footer__character">
+          <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+          <div class="character__id">
+             <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+             <div class="id__time">На сайте: <span>2 года</span> </div>
+          </div>
+       </div>
+    </div>
+    <div class="order__detail">
+        <div class="order__detail-text">Так будет выглядеть отклик исполнителя. здесь будет комментарий, который оставил исполнитель при отклике.</div>
+            <div class="response__conditions">
+                <p>Цена: <span>1000</span>  р. </p>
+                <p>Срок: <span>10 дней</span> </p>
+                <a class="response__remove" href="#">Удалить отклик </a>
+            </div>
+    </div>
+ 
+            </div>
+       </div>
+       <div id="dispute" class="tabsbody__auction">
+        <div class="orderfeed__order">
+<div class="order__header">
+   <div class="order__header-left"> 
+     <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+     <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+   </div>
+   <div class="order__header-num">#34231</div>
+</div>
+<div class="order__main ">
+   <div class="main__object">Предмет:<span>Название предмета</span> </div>
+   <div class="main__type">Тема:<span>Название темы</span></div>
+   <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+</div>
+<div class="order__footer ">
+   <div class="footer__character">
+      <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+      <div class="character__id">
+         <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+         <div class="id__time">На сайте: <span>2 года</span> </div>
+      </div>
+   </div>
+</div>
+<div class="order__detail">
+    <div class="order__detail-text">Так будет выглядеть отклик исполнителя. здесь будет комментарий, который оставил исполнитель при отклике.</div>
+        <div class="response__conditions">
+            <p>Цена: <span>1000</span>  р. </p>
+            <p>Срок: <span>10 дней</span> </p>
+            <a class="response__remove" href="#">Удалить отклик </a>
+        </div>
+</div>
+
+        </div>
+   </div>
+    </div>
+</div></div>
+      <div class="commonfooter"> <footer class="footer">
+   <div class="footer__container">
+      <div class="footer__left">
+         <div class="left__elem">© 2023</div>
+         <a href="../html/mainpage.html" class="left__elem">StudyHelper</a>
+         <a href="../html/termsoOfUse.html" class="left__elem">Пользовательское соглашение</a>
+         <div class="left__elem">E-mail: Example@gmail.com</div>
+      </div>
+      <div class="footer__right">
+         <div class="right__elem">
+            <div class="right__elem-text">Мы принимаем:</div>
+            <div class="right__elem-img">
+               <img src="..\img\main\pay.svg
+               " alt="pay">
+            </div>
+         </div>
+      </div>
+   </div>   
+</footer></div>
+   </div>
+</body>
+</html>

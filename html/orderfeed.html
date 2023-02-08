@@ -62,8 +62,21 @@
 </header></div>
       <div class="commonmain"> <div class="orderfeed__container">
    <form action="#" method="get" class="orderfeed__search"> 
-      <input type="text"  class="search__ordername" name="ordername" value="" placeholder="Имя заказа">
-      <div class="search__object">Предмет<select size="1" >
+      <input type="text"  class="search__ordername" name="ordername" value="" placeholder="Тема заказа">
+      <div class="search__object"> <span> Предмет</span>      <select size="1" >
+         <option value="1">Программирование</option>
+         <option value="2">Экономика</option>
+         <option value="3">Правовые дисциплины</option>
+         <option value="4">Работа с текстом</option>
+         <option value="5">Технические науки</option>
+         <option value="6">Естественные науки</option>
+         <option value="7">Математика</option>
+         <option value="8">Иностранные языки</option>
+         <option value="9">Гуманитарные науки</option>
+         <option value="10">Другое</option>
+         </select>
+      </div>
+      <div class="search__type"><span>Тип работы</span>     <select size="1" >
          <option value="1">Курсовая работа</option>
          <option value="2">Дипломная работа</option>
          <option value="3">Реферат</option>
@@ -92,36 +105,160 @@
          <option value="26">Другое</option>
          </select>
       </div>
-      <div class="search__type">Тип работы<select size="1" >
-         <option value="1">Курсовая работа</option>
-         <option value="2">Дипломная работа</option>
-         <option value="3">Реферат</option>
-         <option value="4">Контрольная работа</option>
-         <option value="5">Лабораторная работа</option>
-         <option value="6">Доклад</option>
-         <option value="7">Решение задач</option>
-         <option value="8">Отчёт по практике</option>
-         <option value="9">Тест</option>
-         <option value="10">Чертёж</option>
-         <option value="11">Сочинение</option>
-         <option value="12">Эссе</option>
-         <option value="13">Перевод</option>
-         <option value="14">Диссертация</option>
-         <option value="15">Бизнес-план</option>
-         <option value="16">Презентация</option>
-         <option value="17">Ответы на билеты</option>
-         <option value="18">Магистерская диссертация</option>
-         <option value="19">Кандидатская диссертация</option>
-         <option value="20">Статья</option>
-         <option value="21">Рецензия</option>
-         <option value="22">Монография</option>
-         <option value="23">Творческая работа</option>
-         <option value="24">Повышение уникальности текста</option>
-         <option value="25">Оформление работы по ГОСТ</option>
-         <option value="26">Другое</option>
-         </select>
+      <div class="search__cost">Бюджет
+         <input type="text"  class="search__costfrom" name="costfrom" value="" placeholder="От 0">
+         <input type="text"  class="search__costbefore" name="costbefore" value="" placeholder="До 10000">
       </div>
+      <div class="search__term">Сроки
+         <input type="text"  class="search__termfrom" name="termfrom" value="" placeholder="1 день">
+         <input type="text"  class="search__termbefore" name="termbefore" value="" placeholder="60 дней">
+      </div>
+      <button type="submit" class="search__button" name="searchbutton" value="">Найти <img src="..\img\orderfeed\search.png" alt="search"> </button>
    </form>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
+   <div class="orderfeed__order">
+      <div class="order__header">
+         <div class="order__header-left"> 
+           <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
+           <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+         </div>
+         <div class="order__header-num">#34231</div>
+      </div>
+      <div class="order__main">
+         <div class="main__object">Предмет:<span>Название предмета</span> </div>
+         <div class="main__type">Тема:<span>Название темы</span></div>
+         <div class="main__cost">Бюджет:<span>По договоренности</span></div>
+      </div>
+      <div class="order__footer">
+         <div class="footer__character">
+            <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
+            <div class="character__id">
+               <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
+               <div class="id__time">На сайте: <span>2 года</span> </div>
+            </div>
+         </div>
+         <a href="../html/orderfeeddetail.html" class="footer__open">Открыть</a>
+      </div>
+   </div>
 </div></div>
       <div class="commonfooter"> <footer class="footer">
    <div class="footer__container">
