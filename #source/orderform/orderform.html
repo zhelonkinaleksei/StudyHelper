@@ -1,0 +1,79 @@
+<div class="orderform__container">
+    <div class="orderform__title">Форма заявки для заказа</div>
+    <form action="#" method="post" id="" class="orderform">
+        <div class="orderform__first">
+            <div class="form__first-type"><select size="1" >
+                <option value="1">Курсовая работа</option>
+                <option value="2">Дипломная работа</option>
+                <option value="3">Реферат</option>
+                <option value="4">Контрольная работа</option>
+                <option value="5">Лабораторная работа</option>
+                <option value="6">Доклад</option>
+                <option value="7">Решение задач</option>
+                <option value="8">Отчёт по практике</option>
+                <option value="9">Тест</option>
+                <option value="10">Чертёж</option>
+                <option value="11">Сочинение</option>
+                <option value="12">Эссе</option>
+                <option value="13">Перевод</option>
+                <option value="14">Диссертация</option>
+                <option value="15">Бизнес-план</option>
+                <option value="16">Презентация</option>
+                <option value="17">Ответы на билеты</option>
+                <option value="18">Магистерская диссертация</option>
+                <option value="19">Кандидатская диссертация</option>
+                <option value="20">Статья</option>
+                <option value="21">Рецензия</option>
+                <option value="22">Монография</option>
+                <option value="23">Творческая работа</option>
+                <option value="24">Повышение уникальности текста</option>
+                <option value="25">Оформление работы по ГОСТ</option>
+                <option value="26">Другое</option> 
+            </select>
+            </div>
+            <div class="form__first-object"><select size="1" >
+                <option value="1">Программирование</option>
+                <option value="2">Экономика</option>
+                <option value="3">Правовые дисциплины</option>
+                <option value="4">Работа с текстом</option>
+                <option value="5">Технические науки</option>
+                <option value="6">Естественные науки</option>
+                <option value="7">Математика</option>
+                <option value="8">Иностранные языки</option>
+                <option value="9">Гуманитарные науки</option>
+                <option value="10">Другое</option>
+                </select>
+             </div>
+        </div>
+        <div class="orderform__two">
+            <input type="text"  class="form__two-topic" name="topic" value="" placeholder="Тема работы">
+            <div class="form__two-count">
+                <div class="twocount__text">Количество страниц</div>
+                <input type="text"  class="two-countfrom" name="countfrom" value="" placeholder="От 0">
+                <input type="text"  class="twocount-before" name="countbefore" value="" placeholder="До 200">
+            </div>
+        </div>
+        <div class="orderform__three">
+            <p><input type="checkbox" id="1" name="checkbox" value="yes"> Нужна проверка на антиплагиат</p>
+            <div class="form__three-plug"><select size="1" >
+                <option value="1">Antiplagiat.ru</option>
+                <option value="2">Антиплагиат-вуз.рф</option>
+                <option value="3">etxt.ru</option>
+                </select>
+            </div>
+            <div class="form__three-percent"><select size="1" >
+                <option value="1">25%</option>
+                <option value="2">50%</option>
+                <option value="3">75%</option>
+                </select>
+            </div>
+        </div>  
+        <textarea class="form__textarea" name="formcomment" id="" placeholder="Введите ваш комментарий" ></textarea>
+        <div class="orderform__four">
+            <input type="file" name="formfile" class="file__attach" >
+            <div class="button__attach"> Прикрепить файл </div>
+            <p> <span> Выполнить </span> до:<input class="order__comment" type="text" name="workdate" value="" placeholder="21.21.2121"></p>
+        </div>
+        <button class="button__placeorder" type="submit" >Разместить заказ</button>
+    </form>
+</div>

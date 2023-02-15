@@ -270,7 +270,7 @@ a{
 }
 .section__top {
   margin-top:20px
- 
+
 }
 
 .top__container {
@@ -414,7 +414,7 @@ a{
     
   }
   .section__top {
-    margin-top:calc(100px + (120 - 100) * ((100vw - 320px) / (1230 - 320))); 
+    margin-top:calc(10px + (20 - 10) * ((100vw - 320px) / (1230 - 320))); 
    
   }
   .top__title {
@@ -959,3 +959,5 @@ a{
 @import "executorbalance.scss";
 
 @import "topexperts.scss";
+
+@import "orderform.scss";
