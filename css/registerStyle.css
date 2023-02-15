@@ -1,0 +1,324 @@
+.log__account {
+  margin: 15px 0px;
+}
+
+.registermain__conteiner {
+  max-width: 1230px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.registermain__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 150%;
+  color: #000000;
+  margin: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.registermain__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 15px;
+     -moz-column-gap: 15px;
+          column-gap: 15px;
+  margin-bottom: 30px;
+}
+
+.registermain__button {
+  max-width: 214px;
+  padding: 15px 15px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 4px 8px #ABCDFF;
+          box-shadow: 0px 4px 8px #ABCDFF;
+  background-color: #ABCDFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #101010;
+  border: solid 1px #bdbdbd;
+}
+
+.registermain__form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 40px;
+  max-width: 700px;
+  margin: 0px auto;
+  background: #2696D8;
+  border: 1px solid #BBB9B9;
+  -webkit-box-shadow: 0px 4px 15px #0C5D8C;
+          box-shadow: 0px 4px 15px #0C5D8C;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.registermain__form-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  margin-bottom: 30px;
+}
+.registermain__form-first ::-webkit-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-first ::-moz-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-first :-ms-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-first ::-ms-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-first ::placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.form__stroke {
+  background: #2696D8;
+  border-bottom: 1px solid #000000;
+  max-width: 357.5px;
+  height: 56px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0;
+          flex: 1 0;
+}
+
+.registermain__form-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  margin-bottom: 25px;
+}
+.registermain__form-two ::-webkit-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-two ::-moz-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-two :-ms-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-two ::-ms-input-placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+.registermain__form-two ::placeholder {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.registermain__form-check {
+  margin-bottom: 35px;
+}
+.registermain__form-check span {
+  font-family: Roboto;
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+}
+.registermain__form-check a {
+  font-family: Roboto;
+  color: rgb(0, 0, 0);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-decoration: underline;
+}
+
+.registermain__form-button {
+  margin: 0px auto;
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ABCDFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.registermain__form-button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.registermain__form-buttonsocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.registermain__form-buttonvk {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ABCDFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.registermain__form-buttonvk:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.registermain__form-buttogoogle {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #ABCDFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.registermain__form-buttogoogle:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 1230px) {
+  .registermain__form-check span {
+    font-size: calc(16px + 4 * (100vw - 320px) / 910);
+  }
+  .registermain__form-check a {
+    font-size: calc(16px + 4 * (100vw - 320px) / 910);
+  }
+}
+@media (max-width: 486px) {
+  .registermain__form-first {
+    margin-bottom: 0px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 200px;
+            flex: 1 0 200px;
+  }
+  .registermain__form-two {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 200px;
+            flex: 1 0 200px;
+  }
+  .registermain__form-buttonsocial {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .registermain__form-buttonvk {
+    margin-bottom: 20px;
+  }
+  .registermain__buttons {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 351px) {
+  .registermain__button:first-child {
+    margin-bottom: 20px;
+  }
+}

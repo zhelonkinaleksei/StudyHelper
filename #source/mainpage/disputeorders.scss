@@ -24,9 +24,6 @@
         width: 100%;
     }
 }
-.message__text {
-}
-
 
 .dialog__input-message {
     min-height: 100px;
@@ -149,10 +146,6 @@
     margin: 0px auto;
     column-gap: 10px;
 }
-.order__time {
-}
-.order__num {
-}
 
 @media(max-width:767px){
     .order__timer{
@@ -171,6 +164,4 @@
     align-items: center;
     column-gap: 6px;
     margin-top: 15px;
-}
-.chekbox__var {
 }
