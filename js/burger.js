@@ -5,5 +5,6 @@ if (menuIcon) {
    menuIcon.addEventListener("click", function () {
       menuIcon.classList.toggle("_active");
       headMenu.classList.toggle("_actived");
+      document.body.classList.toggle("_lock");
    });
 }
