@@ -52,49 +52,30 @@
    <div class="header__customer-buttons">
       <a href="../html/executorresponse.html#send" class="header__customer-button">
          <img src="../img/headerlk/briefcase.png" alt="briefcase"> <span> Мои отклики </span></a>
-      <a href="#" class="header__customer-button">
+      <a href="../html/executorbalance.html" class="header__customer-button">
          <img src="../img/headerlk/ru.png" alt="ru"> <span>Баланс</span></a>
-      <a href="#" class="header__customer-button">
+      <a href="" class="header__customer-button">
          <img src="../img/headerlk/mail.png" alt="mail"> <span>Уведомления</span></a>      
    </div> 
    <script src="..\js\profilepopup.js"></script>
    <script src="..\js\burger.js"></script>
 </header></div>
-      <div class="commonmain"> <div class="orderfeed__order">
-    <div class="order__header">
-       <div class="order__header-left"> 
-         <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
-         <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
-       </div>
-       <div class="order__header-num">#34231</div>
+      <div class="commonmain"> <div class="balance__container">
+    <div class="balance__count">Баланс: <span> 0 </span> р.</div>
+    <div class="balance__buttons">
+        <a class="button__replenishment">Пополнить</a> 
+        <a href="#conclusion" class="button__conclusion">Вывести</a>
     </div>
-    <div class="order__main ">
-       <div class="main__object">Предмет:<span>Название предмета</span> </div>
-       <div class="main__type">Тема:<span>Название темы</span></div>
-       <div class="main__cost">Бюджет:<span>По договоренности</span></div>
-    </div>
-    <div class="order__footer ">
-       <div class="footer__character">
-          <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
-          <div class="character__id">
-             <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
-             <div class="id__time">На сайте: <span>2 года</span> </div>
-          </div>
-       </div>
-    </div>
-    <div class="order__detail">
-        <div class="order__detail-text">Так будет выглядеть возможность отклика исполнителя на заказы, которые размещены в ленте. Здесь будет размещено более полное описание заказа.</div>
-        <form action="#" method="get"  >
-            <textarea  placeholder="Введите свой коментарий для заказчика..."  name="pesponsetext" id=""  cols="0" rows="0"  class="detail__response-text" > </textarea>
-            <div class="order__detail-conditions">
-                <p>Цена:   <input type="number"  class="conditions__cost" name="costfrom" value="" ></p>
-                <p>Срок:   <input type="text"  class="conditions__cost" name="costещ" value="" ></p>
-                <button type="submit" class="response__button" name="responsebutton" value="">Откликнуться </button>
-            </div>
-        </form>
-        
-    </div>
- </div></div>
+    <div id="conclusion" class="conclusion__body">
+        <p> Номер карты  <input class="conclusion__inputcard"  type="text" name="cardnumber" value="" placeholder="**** **** **** ****" ></p> 
+        <p> Сумма   <input class="conclusion__inputcount" type="text" name="count" value="" placeholder="0" > </p> 
+        <div class="balance__buttons">
+            <a class="button__replenishment">Подтвердить</a> 
+            <a href="#conclusion" class="button__conclusion">Отменить</a>
+        </div>
+    </div>   
+</div>
+</div>
       <div class="commonfooter"> <footer class="footer">
    <div class="footer__container">
       <div class="footer__left">

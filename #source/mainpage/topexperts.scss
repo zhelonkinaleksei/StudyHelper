@@ -1,0 +1,25 @@
+.top__experts{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    margin-top: 15px;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgb(247, 247, 247);
+}
+
+@media(max-width:767px){
+    .position__top{
+        font-size: 14px;
+    }
+}
+@media(max-width:465px){
+    .position__top{
+        font-size: 10px;
+    }
+    .top__experts{
+        padding: 10px 10px;
+        background-color: rgb(247, 247, 247);
+    }
+}

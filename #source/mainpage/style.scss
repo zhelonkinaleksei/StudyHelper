@@ -414,7 +414,7 @@ a{
     
   }
   .section__top {
-    margin-top:calc(10px + (20 - 10) * ((100vw - 320px) / (1230 - 320))); 
+    margin-top:calc(100px + (120 - 100) * ((100vw - 320px) / (1230 - 320))); 
    
   }
   .top__title {
@@ -953,3 +953,9 @@ a{
 @import "executorlkinformstyle.scss";
 
 @import "orderfeedstyle.scss";
+
+@import "disputeorders.scss";
+
+@import "executorbalance.scss";
+
+@import "topexperts.scss";

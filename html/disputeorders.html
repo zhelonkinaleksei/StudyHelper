@@ -31,7 +31,7 @@
                <a href="">FAQ</a>
             </li>
             <li>
-               <a href="../html/orderfeed.html" class="order__button" >Лента заказов</a>
+               <a href="#" class="order__button" >Заказать</a>
             </li>
          </ul>
       </nav>
@@ -39,60 +39,61 @@
          <span></span>
       </div>   
       <div id="lkprofile__popup" class="lkprofile__popup" >
-         <img src="..\img\executorlk\profile.png" alt="profile"> 
+         <img src="..\img\headerlk\profile.png" alt="profile"> 
          <div id="profile__modal" class="profile__modal">
             <div class="modal__content">
-               <a href="..\html\executorlkinform.html" class="modal__content-title">Мой профиль</a>
-               <a href="..\html\executorlksettings.html#general" class="modal__content-subtitle"> <img src="..\img\headerlk\options.png" alt="options">Настройки</a>
+               <a href="../html/customerlkinform.html" class="modal__content-title">Мой профиль</a>
+               <a href="../html/customerlk.html#general" class="modal__content-subtitle"> <img src="..\img\headerlk\options.png" alt="options">Настройки</a>
                <a href="#" class="modal__content-logout"> <img src="..\img\headerlk\logout.png" alt="logout">Выход</a>
             </div>
          </div>
       </div> 
    </div>
    <div class="header__customer-buttons">
-      <a href="../html/executorresponse.html#send" class="header__customer-button">
-         <img src="../img/headerlk/briefcase.png" alt="briefcase"> <span> Мои отклики </span></a>
-      <a href="#" class="header__customer-button">
+      <a href="../html/mainсustomerlkorders.html#auction" class="header__customer-button">
+         <img src="../img/headerlk/briefcase.png" alt="briefcase"> <span> Мои заказы </span></a>
+      <a href="../html/customerbalance.html" class="header__customer-button">
          <img src="../img/headerlk/ru.png" alt="ru"> <span>Баланс</span></a>
-      <a href="#" class="header__customer-button">
+      <a href="" class="header__customer-button">
          <img src="../img/headerlk/mail.png" alt="mail"> <span>Уведомления</span></a>      
    </div> 
    <script src="..\js\profilepopup.js"></script>
    <script src="..\js\burger.js"></script>
 </header></div>
-      <div class="commonmain"> <div class="orderfeed__order">
-    <div class="order__header">
-       <div class="order__header-left"> 
-         <div class="header__left-character"> <span>Предмет</span>, <span>Тип работы</span></div>
-         <div class="header__left-date"> <img src="..\img\orderfeed\calendar.png" alt="calendar"> <span>21.10.2018</span></div>  
+      <div class="commonmain"> <div class="offer__executor">
+    <div class="offer__header">
+       <div class="executor__profile">
+          <img src="..\img\headerlk\profile.png" alt="profileexecutor">
        </div>
-       <div class="order__header-num">#34231</div>
-    </div>
-    <div class="order__main ">
-       <div class="main__object">Предмет:<span>Название предмета</span> </div>
-       <div class="main__type">Тема:<span>Название темы</span></div>
-       <div class="main__cost">Бюджет:<span>По договоренности</span></div>
-    </div>
-    <div class="order__footer ">
-       <div class="footer__character">
-          <div class="character__profile"> <img src="..\img\orderfeed\profile.png" alt="profile"> </div>
-          <div class="character__id">
-             <div class="id__name">#Заказчик  <img src="..\img\orderfeed\check.png" alt="check"> </div>
-             <div class="id__time">На сайте: <span>2 года</span> </div>
+       <div class="executor__character">
+          <div class="executor__name"> Исполнитель <img src="..\img\customerorders\check.png" alt="check"> <div class="executor__rate"> 4.96</div>
           </div>
+          <div class="executor__countorder">Выполненных: <span>10</span> <div class="executor__feedback">Отзывы: <span>8 </span>|<span> 1</span>|<span> 1</span></div>
+           </div>
+       </div>
+       <div class="executor__condition">
+          <div class="executor__price">Цена: <span> 100 </span> <img src="..\img\headerlk\ru.png" alt="ru"> </div>
+          <div class="executor__term"> Срок: <span> 2 дня </span> </div>
        </div>
     </div>
-    <div class="order__detail">
-        <div class="order__detail-text">Так будет выглядеть возможность отклика исполнителя на заказы, которые размещены в ленте. Здесь будет размещено более полное описание заказа.</div>
-        <form action="#" method="get"  >
-            <textarea  placeholder="Введите свой коментарий для заказчика..."  name="pesponsetext" id=""  cols="0" rows="0"  class="detail__response-text" > </textarea>
-            <div class="order__detail-conditions">
-                <p>Цена:   <input type="number"  class="conditions__cost" name="costfrom" value="" ></p>
-                <p>Срок:   <input type="text"  class="conditions__cost" name="costещ" value="" ></p>
-                <button type="submit" class="response__button" name="responsebutton" value="">Откликнуться </button>
+    <div class="offer__dialog">
+       <div class="dialog__message">
+            <div class="messsage__profile">
+                <img src="..\img\disputeorders\profileexecutor.png" alt="profileexecutor">
             </div>
-        </form>
-        
+            <div class="message__text">Сообщение заказчика или исполнителя</div>
+       </div>
+       <div class="dialog__message">
+        <div class="messsage__profile">
+            <img src="..\img\disputeorders\profileexecutor.png" alt="profileexecutor">
+        </div>
+        <div class="message__text">Сообщение заказчика или исполнителя</div>
+   </div>
+    </div>
+    <input type="text" placeholder="Введите текст" class="dialog__input-message">
+    <div class="dialog__buttons">
+        <div class="dialog__button">Выбрать исполнителем</div>
+        <div class="dialog__button">Отправить</div>
     </div>
  </div></div>
       <div class="commonfooter"> <footer class="footer">

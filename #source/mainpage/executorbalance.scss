@@ -1,0 +1,121 @@
+.balance__container {
+    max-width: 400px;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 0px 15px;
+}
+.balance__count {
+    font-size: 18px;
+    font-weight: 600;
+}
+.balance__buttons {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.button__replenishment {
+    font-size: 18px;
+    line-height: 120%;
+    font-style: normal;
+    padding: 7px 15px;
+    background: #ABCDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    &:active{
+       box-shadow: none;
+    }
+}
+.button__conclusion {
+    font-size: 18px;
+    line-height: 120%;
+    font-style: normal;
+    padding: 7px 15px;
+    background: #ABCDFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    &:active{
+       box-shadow: none;
+    }
+}
+.conclusion__body {
+    display: none;
+}
+.conclusion__body{
+    margin-top: 20px;
+    &:target {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    }
+}
+.conclusion__inputcard {
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid #808080;
+}
+.conclusion__inputcount {
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid #808080;
+    max-width: 80px;
+}
+
+@media(max-width:767px){
+    .balance__count {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .balance__buttons {
+        margin-top: 10px;
+        column-gap: 15px;
+    }
+    .button__replenishment {
+        font-size: 16px;
+    }
+    .button__conclusion {
+        font-size: 16px;
+    }
+    .conclusion__body{
+        margin-top: 15px;
+    }
+    .conclusion__inputcard {
+        font-size: 12px;
+    }
+    .conclusion__inputcount {
+        font-size: 12px;
+
+    }
+}
+@media(max-width:460px){
+    .balance__count {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .balance__buttons {
+        margin-top: 10px;
+        column-gap: 10px;
+    }
+    .button__replenishment {
+        font-size: 12px;
+    }
+    .button__conclusion {
+        font-size: 12px;
+    }
+    .conclusion__body{
+        margin-top: 15px;
+    }
+    .conclusion__inputcard {
+        font-size: 10px;
+    }
+    .conclusion__inputcount {
+        font-size: 12px;
+
+    }
+}
