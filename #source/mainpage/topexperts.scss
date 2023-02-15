@@ -9,9 +9,31 @@
     background-color: rgb(247, 247, 247);
 }
 
+.top__experts-title{
+    font-size: 46px;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 120%;
+}
+
+.position__top{
+    span{
+        color: #a10101;
+    }
+}
+@media(max-width:1200px){
+    .top__experts-title{
+        font-size: calc(20px + (46 - 20) * ((100vw - 320px) / (1230 - 320)));
+    }
+}
 @media(max-width:767px){
     .position__top{
         font-size: 14px;
+    }
+    .top__experts-title{
+        margin-top: 30px;
+        margin-bottom: 15px;
     }
 }
 @media(max-width:465px){
@@ -21,5 +43,9 @@
     .top__experts{
         padding: 10px 10px;
         background-color: rgb(247, 247, 247);
+    }
+    .top__experts-title{
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
 }
