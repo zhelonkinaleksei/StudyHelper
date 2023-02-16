@@ -4605,3 +4605,145 @@ textarea {
     display: none;
   }
 }
+/*--------------------------popup------------------------------*/
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3490196078);
+  top: 0;
+  left: 0;
+  -webkit-transition: 0.5s all ease 0s;
+  transition: 0.5s all ease 0s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+._open {
+  opacity: 100%;
+  visibility: visible;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup__form {
+  background-color: #fff;
+  max-width: 600px;
+  padding: 30px;
+  position: relative;
+}
+
+textarea {
+  resize: none;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.form__cancel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+.form__cancel img {
+  width: 100%;
+}
+
+.form__input {
+  border: 1px solid #CCCCCC;
+  padding: 10px 5px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form__item {
+  margin-bottom: 10px;
+}
+
+.form__button {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 120%;
+  font-style: normal;
+  padding: 7px 15px;
+  background: #ABCDFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+.form__button:active {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 767px) {
+  .popup__form {
+    max-width: 400px;
+    padding: 25px;
+  }
+  .form__title {
+    font-size: 22px;
+    width: 350px;
+  }
+  .form__input {
+    border: 1px solid #CCCCCC;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .form__item {
+    margin-bottom: 7px;
+  }
+  .form__button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 440px) {
+  .popup__form {
+    max-width: 300px;
+    padding: 20px;
+  }
+  .form__title {
+    font-size: 20px;
+    width: 250px;
+  }
+  .form__input {
+    border: 1px solid #CCCCCC;
+    padding: 7px 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  .form__item {
+    margin-bottom: 7px;
+  }
+  .form__button {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+}

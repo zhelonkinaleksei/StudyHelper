@@ -19,7 +19,7 @@
       <nav class="header__nav">
          <ul>
             <li>
-               <a href="">Поддержка</a>
+               <a href="#" class="support__button" >Поддержка</a>
             </li>
             <li>
                <a href="../html/topexperts.html">Топ экспертов</a>
@@ -114,7 +114,30 @@
          </div>
       </div>
    </div>   
-</footer></div>
+</footer>
+<div id="popup" class="popup">
+   <div class="popup__body">
+       <div class="popup__form">
+           <div class="form__cancel">
+               <img src="../img/footer/cancel.png" alt="cancel">
+           </div>
+           <form action="#"  id="form" class="form__body">
+               <div class="form__title">Есть вопросы?</div>
+               <div class="form__item">
+                   <input id="formName" type="text" name="Name" class="form__input" placeholder="Ваше имя" >
+               </div>
+               <div class="form__item">
+                   <input id="formEmail" type="text" name="Email" class="form__input" placeholder="Ваш Email" >
+               </div>
+               <div class="form__item">
+                   <textarea name="Message" id="formMessage" class="form__input" placeholder="Задайте свой вопрос"></textarea>
+               </div>
+               <button type="submit" class="form__button" >Отправить</button>
+           </form>
+       </div>
+   </div>
+ </div>
+ <script src="..\js\popup.js"></script>  </div>
    </div>
 </body>
 </html>
