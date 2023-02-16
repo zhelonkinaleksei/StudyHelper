@@ -6,6 +6,7 @@ if (popupButton){
     const popup = document.querySelector('.popup');
     popupButton.addEventListener("click", function (){
         popup.classList.toggle("_open");
+
         document.body.classList.toggle("_lock");
      });
   }
@@ -25,4 +26,6 @@ popup.addEventListener("click", function(e){
     };
 })
 
-  
+
+const headMenu = document.querySelector(".header__nav ");  
+headMenu.classList.remove("_actived");
